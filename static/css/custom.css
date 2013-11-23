@@ -1,0 +1,30 @@
+body {
+	background-image:url('/static/img/background.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 80%;
+    margin: 0 auto;
+ }
+
+h1 {
+	color: white;
+	font-family: "Raleway";
+}
+
+.bigbox {
+
+	width: 600px;
+	height: 400px;
+	border-radius: 20px;
+	background-color: rgba(0,0,0, 0.7);
+	color: white;
+
+}
+
+.littlebox {
+	text-align: center;
+	width: 100%;
+}
+
