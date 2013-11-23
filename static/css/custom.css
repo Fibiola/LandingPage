@@ -4,7 +4,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    width: 100%;
+    width: 80%;
     margin: 0 auto;
     padding: 30px;
  }
@@ -46,8 +46,29 @@ h1 {
 
 }
 
+.social {
+	margin-left: auto;
+	margin-right:auto;
+}
+
 .googleplay {
 	float:right;
-	
+	margin:10px;
+}
 
+.fb {
+	
+	margin:10px;
+	display: inline;
+}
+
+.plus {
+	margin:10px;
+	display: inline;
+}
+
+.tumblr {
+
+	margin:10px;
+	display: inline;
 }
