@@ -22,7 +22,7 @@
 
 <div class="col-md-4">
     <div class="iphone">
-        <img src="/static/img/iphone.png" height="600px", width="288px" />
+        <img src="{{ url_for('.static', filename='static/img/iphone.png') }" height="600px", width="288px" />
     </div>
 </div>
 
@@ -32,9 +32,9 @@
         <h1> Checkster </h1>
         <div class="littlebox">
             <p>Brak zabrak wedge skywalker ysanne darth voxyn. Zabrak bith cade vuffi secura. Aka jettster zhell himoran tib. Jin'ha massans hoojib melodie givin lannik tiin maximilian quarren. Thistleborn zabrak mirta kal kobok maris evocii. Skakoan barriss droch nadd. Luke leia maximilian su deliah durge. Ogemite amanin kenobi d8. Leia stele monkey-lizard qui-gon valorum thrella barriss oppo. Grodin ventress roos lorth taun bib. Ansionian duros moff vima-da-boda vel trianii endocott gorax kessel. Rattataki hutt terrik ev-9d9 airen derek kessel.</p>
-                <div class="appstore"><img src="/static/img/appstore.png"/>
+                <div class="appstore"><img src=" {{ url_for('.static', filename='/static/img/appstore.png') }}"/>
                 </div>
-                <div class="googleplay"><img src="/static/img/googleplay.png"/>
+                <div class="googleplay"><img src=" {{ url_for('.static', filename='/static/img/googleplay.png') }}">
                 </div>
         </div>
         <p><a class="btn btn-primary btn-lg">Subscribe</a></p>
