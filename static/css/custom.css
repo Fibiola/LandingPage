@@ -6,7 +6,7 @@ body {
     background-size: cover;
     width: 100%;
     margin: 0 auto;
-    padding: 1px;
+    padding: 10px;
     font-family: "Raleway" !important; 
  }
 
@@ -28,24 +28,28 @@ p {
 	text-align: justify;
 }
 
+
+
 .bigbox {
 	text-align: center;
 	width: 650px;
-	height: 550px;
+	height: 610px;
 	border-radius: 20px;
 	background-color: rgba(0,0,0, 0.6);
 	color: white;
 	display: inline-block;
-	padding: 5px;
-	margin-top: 70px;
+	
+	margin-top: 20px;
 	line-height: 0.8 !important;
 }
 
 .description {
-	width:400px;
-	height: 100px;
+	width:600px;
+	height: 60px;
 	text-align: justify;
+	text-align: center;
 	line-height: 1.5 !important;
+
 }
 .littlebox {
 
@@ -62,16 +66,18 @@ p {
 .appstore {
 	float:left;
 	margin:10px;
-
+	margin-top: 15px;
 }
 
 .googleplay {
 	margin: 10px;
 	float:right;
+	margin-top: 15px;
 	
 }
 
 .social {
+	margin-top: 10px;
 	margin-left: auto;
 	margin-right:auto;
 }
