@@ -28,17 +28,14 @@ p {
 	text-align: justify;
 }
 
-
-
 .bigbox {
 	text-align: center;
-	width: 650px;
+	width: 600px;
 	height: 610px;
 	border-radius: 20px;
 	background-color: rgba(0,0,0, 0.6);
 	color: white;
 	display: inline-block;
-	
 	margin-top: 20px;
 	line-height: 0.8 !important;
 }
