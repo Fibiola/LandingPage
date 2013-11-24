@@ -7,7 +7,7 @@ body {
     width: 100%;
     margin: 0 auto;
     padding: 1px;
-    font-family: "Raleway" !important; font-weight: 100 !important;
+    font-family: "Raleway" !important; 
  }
 
 h1 {
@@ -18,8 +18,10 @@ h1 {
 }
 
 h2 {
-	 font-family: "Raleway" !important; font-weight: 200 !important;
+	 font-family: "Raleway" !important; font-weight: 100 !important;
 	 line-height: 0.8 !important;
+	 font-size: 1.3em;
+
 }
 
 p {
@@ -28,8 +30,8 @@ p {
 
 .bigbox {
 	text-align: center;
-	width: 600px;
-	height: 500px;
+	width: 650px;
+	height: 550px;
 	border-radius: 20px;
 	background-color: rgba(0,0,0, 0.6);
 	color: white;
@@ -39,9 +41,12 @@ p {
 	line-height: 0.8 !important;
 }
 
-
-
-
+.description {
+	width:400px;
+	height: 100px;
+	text-align: justify;
+	line-height: 1.5 !important;
+}
 .littlebox {
 
 	text-align: center;
@@ -51,16 +56,17 @@ p {
 
 	float:left;
 	margin: 20px;
-	visibility: hidden;
-	margin-top:80px;
+	margin-top:100px;
 }
 
 .appstore {
 	float:left;
+	margin:10px;
 
 }
 
 .googleplay {
+	margin: 10px;
 	float:right;
 	
 }
@@ -84,6 +90,16 @@ p {
 
 .tumblr {
 
+	margin:10px;
+	display: inline;
+}
+
+.vimeo {
+	margin:10px;
+	display: inline;
+}
+
+.twitter {
 	margin:10px;
 	display: inline;
 }
