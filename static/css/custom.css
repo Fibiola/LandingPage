@@ -1,17 +1,25 @@
 body {
-    background-image:url('/static/img/blur2.png');
+    background-image:url('/static/img/background1.png');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     width: 100%;
     margin: 0 auto;
-    padding: 30px;
-    font-family:"Raleway"; font-weight: 100;
+    padding: 1px;
+    font-family: "Raleway" !important; font-weight: 100 !important;
  }
 
 h1 {
 	color: white;
+	font-size: 6em;
+	 font-family: "Raleway" !important; font-weight: 100 !important;
+	 line-height: 0.8 !important;
+}
+
+h2 {
+	 font-family: "Raleway" !important; font-weight: 200 !important;
+	 line-height: 0.8 !important;
 }
 
 p {
@@ -20,29 +28,31 @@ p {
 
 .bigbox {
 	text-align: center;
-	width: 500px;
-	height: 400px;
+	width: 600px;
+	height: 500px;
 	border-radius: 20px;
 	background-color: rgba(0,0,0, 0.6);
 	color: white;
 	display: inline-block;
-	padding: 10px;
+	padding: 5px;
 	margin-top: 70px;
-
+	line-height: 0.8 !important;
 }
+
+
+
 
 .littlebox {
 
 	text-align: center;
 }
 
-
 .iphone {
 
 	float:left;
 	margin: 20px;
 	visibility: hidden;
-	margin-top:50px;
+	margin-top:80px;
 }
 
 .appstore {
